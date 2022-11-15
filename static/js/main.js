@@ -69,7 +69,7 @@ $(document).ready(function () {
     $.fn.getPredictedSymptom(true);
     $("#conversation").empty();
     const text =
-      "Welcome! I'm Medical Chatbot, but you can call me Ceri. What symptoms are you currently experiencing? When you've entered all of your symptoms, please write '<b>Done</b>'. Make sure you enter as much symptoms as possible so the prediction can be as correct as possible.";
+      " Welcome! I'm Chatbot Ceri. What symptoms are you currently experiencing? When you've entered all of your symptoms, please write '<b>Done</b>'.  Please enter as much symptoms as possible so I can predict a disease correctly.";
     $("#conversation").append(
       `<div class="row message-previous"><div class="col-sm-12 previous"></div></div><div class="row message-body"><div class="col-sm-12 message-main-receiver"><div class="receiver"><div class="message-text">${text}</div></div></div></div>`
     );
